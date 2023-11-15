@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HABITTIZE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <dialog id="input">
+
+      <div id="habitNameContainer">
+        <label for="habitName">habitName: </label>
+        <input type="text" id="habitName" />
+      </div>
+
+      <div id="DaysContainer">
+        <input type="radio" name="days" id="7" value="7" checked />
+        <label for="7">7 days</label>
+
+        <input type="radio" name="days" value="14" id="14" />
+        <label for="14">14 days</label>
+
+        <input type="radio" name="days" value="21" id="21" />
+        <label for="21">21 days</label>
+      </div>
+
+      <div id="reasonContainer">
+        <label for="reason">Reason why you need to do this: </label>
+        <textarea name="text" id="reason" cols="10" rows="10" placeholder="example: improve my life"></textarea>
+      </div>
+
+      <div id="buttonContainer">
+        <button id="done" >Done</button>
+        <button id="cancel">Cancel</button>
+      </div>
+
+    </dialog>
+
+    <button id="addHabit">Add a habit to track</button>
+    
+
+    <div id="habitContainer">
+        
+    </div>
+  </body>
+</html>
