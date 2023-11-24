@@ -21,6 +21,13 @@
     display: flex;
     flex-direction: column;
     position: relative;
+   
+}
+
+h2,p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    
 }
 
 
